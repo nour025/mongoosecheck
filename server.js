@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 // create and save one person 
- /*const createAndSavePerson = () => {
+ const createAndSavePerson = () => {
     const person = new Person({
       name: "Merla",
       age: 21,
@@ -130,7 +130,7 @@ const chainQuery = () => {
       if (err) return console.error(err);
       console.log("Chained Query:", data);
     });
-};*/
+};
 
 
   
